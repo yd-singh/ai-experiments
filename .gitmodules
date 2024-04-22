@@ -1,0 +1,3 @@
+[submodule "quivr"]
+	path = quivr
+	url = https://github.com/heysachin/quivr
