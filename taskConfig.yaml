@@ -1,0 +1,39 @@
+research_task:
+  description: "Perform thorough research on the shared topic: {topic}"
+  expected_output: "Your Final answer must be detailed bullet points, Compile all in sections for below: 
+                             Market Analysis: Conducting in-depth market research to identify trends, competitors, and consumer behavior in the market.
+                             User Insights: Gathering and analyzing user feedback, reviews, and behavior patterns related to digital products to understand user needs and preferences.
+                             Search News: Gather any news, product launches, around products and features.
+                             Competitive Analysis: Assessing competitors' digital products, features, pricing strategies, and market positioning to identify opportunities and gaps for product improvement or differentiation.
+                             Reporting and Recommendations: Summarizing research findings, insights, into reports and presentations for product development teams and stakeholders. 
+                             You will capture your recommendations in CRISP 10-20 BULLET POINTS"
+          
+compliance_task:
+  description: "Analyze the feature from compliance lesnse, specifically from RBI and NPCI POV.  Topic being : {topic}"
+  expected_output: "Search RBI and NPCI and analyst the impact of the feautre from compliance POV. Ensure the feature doesnt brach any RBI or NPCI regulations or guidelines. Share recommendations, links of guidelines where applicable
+  You will capture your recommendations in CRISP 10-20 BULLET POINTS"
+
+consumer_product_task:
+  description: "Analyze the provided topic from a consumer product manager point of view. Topic being : {topic}"
+  expected_output: "List of why of feature from customer pov, think of great features and list them out. Mention sequencing and prioritisation
+  You will capture your recommendations in CRISP 10-20 BULLET POINTS"
+
+platform_product_task:
+  description: "Analyze the provided topic from a platform product manager point of view. Topic being:  {topic}"
+  expected_output: "List out 'how to implement' feature from platform and reusability pov, think of great domain design and list them out. Mention sequencing and prioritisation
+  You will capture your recommendations in CRISP 10-20 BULLET POINTS"
+
+documentation_task:
+  description: "WRITE A COMPREHENSIVE DOCUMENT WITH AT LEAST 3000 WORDS. Topic being:  {topic}. 
+          "
+  expected_output: "Cover the below IN GREAT DETAIL basis recommendations from everyone:  
+                            Problem Statement: Write a detailed section with a clear problem statment. 
+                            Background : Write a detailed section on the problem at hand, news, research in detail. Add important items as bullet points. 
+                            Compliance & Regulatory: Write a detailed section on the take of RBI, NPCI. Add Mission Critial Compliance adherence items as bullet points. 
+                            Proposed Solution: Write a detailed section on proposed solution covering platform product and consumer product recommendations. 
+                            Stories: Write a detailed section on writing detailed stories breaking down the feature into smaller tasks. Write Story name, description in multiple bullet points. 
+                            Acceptance Criteria: Write a comprehensive section on acceptance criteria. Make these multiple bullet points covering all functionalities proposed in stories. 
+                            System recommendation,
+                            Acceptance critiera. 
+                            Risks & Assumptions: Write a comprehensive section on risks and assumptions with the feature and solutions.   
+                           "
